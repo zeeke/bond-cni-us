@@ -4,7 +4,7 @@ on:
     tags:
       - v*
 env:
-  image-push-owner: 'k8snetworkplumbingwg'
+  image-push-owner: 'zeeke'
 jobs:
   push-thin:
     name: Image push thin image/amd64
